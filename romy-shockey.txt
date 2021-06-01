@@ -9,23 +9,41 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     3. What is an attribute and where do we put it? 
         An attribute is a trait you can give a tag, and it goes within the opening tag.
     4. What is the h1 tag used for? How many times should I use it on a page?
+        h1 is used for the main title, and should only be used once per page.
     5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
+        /* <a> and <img> both have required attributes*/
+    6. What do we put in the head of our HTML document?
+        The head lists data that is needed for the browser but not the user, such as the style sheet. 
     7. What is an id? 
+        An id is a unique attribute that can only be used once per page and is generally used for anchoring within the page.
     8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
+        Any element.
+    9. How many times can I use the same id on a page?
+        Once 
     10. What is a class? 
+        A class is a styling attribute.
     11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
+        Any element.
+    12. How many times can I use the same class on a page?
+        As many times as needed. 
     13. How do I get my link to open in a new tab?
+        target="_blank"
     14. What is the alt attribute in the image tag used for? 
+        This gives screen readers an image description to read.
     15. How do I reference an id?
+        href:"#(idname)"
     16. What is the difference between a section and a div
+        Section is a semantic tag, div is not and is only used for styling.
     17. What is CSS used for? 
+        CSS is used to add styling elements and make a page pretty.
     18. How to we select an element? Example - every h2 on the page
+        You put the element name followed by curly brackets with the desired styling.
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        ID is unique, class can be used as often as necessary. ID is most often used to anchor within a page whereas class is used for styling.
     20. How do we select classes in CSS?
+        .(classname)
     21. How do we select a p element with a single class of “human””?
+        p.human
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
