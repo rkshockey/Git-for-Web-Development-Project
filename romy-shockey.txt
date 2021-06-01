@@ -45,21 +45,49 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     21. How do we select a p element with a single class of “human””?
         p.human
     22. What is a parent child selector? When would this be useful? 
+        Selects all the 'children' of the selected element. This could be useful for giving all individual aspects of a section a style, such as boxing all the elements individually.
     23. How do you select all links within a div with the class of sidebar?
+        div .sidebar {}
     24. What is a pseudo selector?
+        A pseudo class selector selects tags when they're in a certain state, such as being hovered over.
     25. What do we use the change the spacing between lines?
+        line-height
     26. What do we use to change the spacing between letters?
+        letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase, lowercase, capitalize
     28. How do I add a 1px border around my div that is dotted and black?
+        border:dotted black 1px
     29. How do I select everything on the page? 
+        *
     30. How do I write a comment in CSS?
+        /* text */
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        cd, you can't go backwards
     34. Why should I use version control? 
+        This makes it so that half-finished modules aren't uploaded.
     35. How often should I commit to github?
+        Every 20min or whenever a major breakthrough occurs.
     36. What is the command we would use to push our repo up to github? 
+        git push
     37. Walk me through Lambda's git flow. 
+        1. Fork the repo
+        2. double check for your name
+        3. Clone the repo link with the 'code' button
+        4. With GitBash cd'd into the correct folder, git clone (link)
+        5. cd into the repo
+        6. Make a branch with 'git checkout -b branchname
+        7. Work
+        8. Use git add .
+        9. Commit with a message - git commit -m "message"
+        10. Push the change up with git push -u origin branchname
+        11. Submit pull request
+        
+
 
 Stretch Questions
 
